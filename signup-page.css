@@ -1,0 +1,110 @@
+
+body{
+	background-color: #298eea;
+	font-family: "Roboto", helvetica, sans-serif;
+	padding: 60px 0 0;
+	margin: 0;
+	font-size: 18px;
+}
+/*not sure what this does, but it makes the box fits prettier around the texts*/
+body * {
+  	box-sizing: border-box;
+}
+
+/*doesn't do anything different*/
+/* Potentially tricky: fieldset comes with default styles we must override. */
+fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.analog-logo{
+	height: 35px;
+	display: block;
+	width: auto;
+	margin: 0 auto 30px;
+}
+
+.signup-form fieldset{
+	width: 400px;
+	height: auto;
+	background-color: white;
+	padding: 40px;
+	margin: 0 auto;
+}
+
+h1{
+	font-size: 35px;
+	width: 100%;
+	line-height: 38px;
+	font-weight: 300;
+	color: #565656;
+	text-align: center;
+	margin: 0 auto 45px;
+}
+
+.signup-form input[type="email"], input[type="password"], button[type="sign-up"] {
+	display: block;
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+	text-align: left;
+	padding: 15px;
+	border: 2px solid #e7e7e7;
+	border-radius: 3px;
+	background: #fcfcfc;
+	margin: 10px auto 20px;
+	transition: opacity 0.4s;
+}
+
+.signup-form button{
+	width: 320px;
+	height: auto;
+	text-align: center;
+	font-size: 22px;
+	border: 0;
+	color: white ;
+	font-weight: 500px;
+	cursor: pointer;
+	margin-top: 15px;
+	margin-bottom: 0;
+	background-color: #15CD72;
+}
+
+button[type="sign-up"]:hover{
+	background-color: #0CB863;
+}
+
+.signup-form p{
+	text-align: center;
+	font-size: 16px;
+	margin: 10px 0 0;
+	color: #696969;
+}
+
+.signup-form a{
+	color: #999;
+	border-bottom: 1px solid #bbb;
+	text-decoration: none;
+}
+.signup-form a:hover{
+	border-color: #999;
+	color: #777;
+}
+
+/*footer*/
+.existingaccount{
+	text-align: center;
+	color: white;
+}
+
+.existingaccount a{
+	color: white;
+	border-bottom: 1px solid #FFFFFF;
+	text-decoration: none;
+}
+.existingaccount a:hover{
+	color: #E7F1F9; 
+}
+
