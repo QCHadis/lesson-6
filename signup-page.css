@@ -1,5 +1,4 @@
-
-body{
+body {
 	background-color: #298eea;
 	font-family: "Roboto", helvetica, sans-serif;
 	padding: 60px 0 0;
@@ -8,25 +7,25 @@ body{
 }
 /*not sure what this does, but it makes the box fits prettier around the texts*/
 body * {
-  	box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /*doesn't do anything different*/
 /* Potentially tricky: fieldset comes with default styles we must override. */
 fieldset {
-  padding: 0;
-  border: 0;
-  margin: 0;
+	padding: 0;
+	border: 0;
+	margin: 0;
 }
 
-.analog-logo{
+.analog-logo {
 	height: 35px;
 	display: block;
 	width: auto;
 	margin: 0 auto 30px;
 }
 
-.signup-form fieldset{
+.signup-form fieldset {
 	width: 400px;
 	height: auto;
 	background-color: white;
@@ -34,7 +33,7 @@ fieldset {
 	margin: 0 auto;
 }
 
-h1{
+h1 {
 	font-size: 35px;
 	width: 100%;
 	line-height: 38px;
@@ -44,7 +43,9 @@ h1{
 	margin: 0 auto 45px;
 }
 
-.signup-form input[type="email"], input[type="password"], button[type="sign-up"] {
+.signup-form input[type="email"],
+input[type="password"],
+button[type="sign-up"] {
 	display: block;
 	width: 100%;
 	height: auto;
@@ -58,7 +59,7 @@ h1{
 	transition: opacity 0.4s;
 }
 
-.signup-form button{
+.signup-form button {
 	width: 320px;
 	height: auto;
 	text-align: center;
@@ -72,39 +73,39 @@ h1{
 	background-color: #15CD72;
 }
 
-button[type="sign-up"]:hover{
+button[type="sign-up"]:hover {
 	background-color: #0CB863;
 }
 
-.signup-form p{
+.signup-form p {
 	text-align: center;
 	font-size: 16px;
 	margin: 10px 0 0;
 	color: #696969;
 }
 
-.signup-form a{
+.signup-form a {
 	color: #999;
 	border-bottom: 1px solid #bbb;
 	text-decoration: none;
 }
-.signup-form a:hover{
+.signup-form a:hover {
 	border-color: #999;
 	color: #777;
 }
 
 /*footer*/
-.existingaccount{
+.existingaccount {
 	text-align: center;
 	color: white;
 }
 
-.existingaccount a{
+.existingaccount a {
 	color: white;
 	border-bottom: 1px solid #FFFFFF;
 	text-decoration: none;
 }
-.existingaccount a:hover{
-	color: #E7F1F9; 
+.existingaccount a:hover {
+	color: #E7F1F9;
 }
 
